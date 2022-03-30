@@ -27,7 +27,7 @@ Select Build provider = AWS CodeBuild ( in other post I will using Jenkins )
 
 Choose a build project that you have already created in the AWS CodeBuild console. Or create a build project in the AWS CodeBuild console and then return to this task.
 
-To Create Build Projet follow these steps
+To Create Build Project follow these steps
 
 
 
@@ -47,7 +47,3 @@ Step 5 : Review
 
 To retrieve the binary in S3 Click View artificats
 
-
-For more information about continuous deployment using AWS CodePipeline look at the link :
-
-https://aws.amazon.com/getting-started/tutorials/continuous-deployment-pipeline/?nc1=h_ls
