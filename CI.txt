@@ -1,0 +1,53 @@
+
+In this tutorial, you will learn how to create an automated software release pipeline
+
+This  sample tutorial  of  CI  ( Continuous Integration) using AWS CodePipeline to build form  GitHub project and to put artifact result  in  AWS S3  ( without deployment just CI) .
+
+
+Let's start :
+
+In your AWS console choose : CodePipeline and Create new pipeline
+
+
+Choose CodePipeline Service from the AWS console 
+Step 1 : Pipeline setting
+
+
+Step 2 : Add Source Stage  
+
+Next  Add source stage GitHub and Connect to GitHub
+
+
+Choose your repository  and the branch
+
+
+Step 3 : Add Build Stage  
+
+Select Build provider = AWS CodeBuild ( in other post I will using Jenkins )
+
+Choose a build project that you have already created in the AWS CodeBuild console. Or create a build project in the AWS CodeBuild console and then return to this task.
+
+To Create Build Projet follow these steps
+
+
+
+
+
+
+Step 4 :Add Deploy Stage :
+As we will interest just in CI ( without deployment CD)  we skip deployment stage
+
+
+AWS Pipeline : Skipping deployment stage
+Step 5 : Review  
+
+
+
+
+
+To retrieve the binary in S3 Click View artificats
+
+
+For more information about continuous deployment using AWS CodePipeline look at the link :
+
+https://aws.amazon.com/getting-started/tutorials/continuous-deployment-pipeline/?nc1=h_ls
